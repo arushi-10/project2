@@ -1,0 +1,69 @@
+#img-div {
+  margin:auto;
+  width:512px;
+  font-family:'poor story','comic sans ms' , cursive;
+  background-color: #ff00ff;
+  font-size: 20px;
+  color: #ffffff;
+  text-align:center;
+} 
+
+
+#title {
+  margin:auto;
+  font-size :3cm;
+  color:#ff00ff;
+  background-color: #ffffff;
+  text-align:center;
+  animation-name:taylorswift;
+  animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin:auto;
+  }
+#img-div :hover{
+animation-name: ready;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+}
+.info{
+  font-size:20px;
+  color: #b603fc;
+  display:grid;
+  grid-template-columns: 40% 60%;
+}
+#footer {
+  background-color: #ff00ff;
+  text-align: center;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color:#ffffff;
+}  
+  a:hover{
+    font-weight: bold;
+  }
+  li:hover{
+    font-weight: bold;
+    color:#ff00ff;
+    cursor:default;
+  }
+ .font {
+    padding: 0px 200px 15px 200px;
+        }
+    .red-text{
+      text-align:left;
+    }
+    .tours{
+      text-align:left;
+    }
+
+  
